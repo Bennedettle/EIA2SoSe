@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+  }
+  
+  #div0,
+  #div1 {
+    width: 50%;
+    height: 500px;
+    background-color: #39124f;
+  }
+  
+  button {
+    margin: 175px auto 0;
+    display: block;
+    height: 150px;
+    width: 30%;
+    border-radius: 25%;
+    border: none;
+  }
+  
+  span {
+    position: fixed;
+  }
+  
