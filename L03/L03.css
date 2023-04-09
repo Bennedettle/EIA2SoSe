@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+  
+  #div {
+    margin: 2rem 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="text"],
+  input[type="datetime-local"] {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"]:focus,
+  input[type="datetime-local"]:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005ea6;
+  }
+  
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 1rem;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+  
+  input[type="text"][name="task"] {
+    flex: 1;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"][name="comment"],
+  input[type="text"][name="person"],
+  input[type="datetime-local"][name="deadline"] {
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"][name="comment"]:focus,
+  input[type="text"][name="person"]:focus,
+  input[type="datetime-local"][name="deadline"]:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  label {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+  button#edit {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button#edit:hover {
+    background-color: #005ea6;
+  }
+  
+  i.fa.fa-trash-alt {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #cc0000;
+    
+  }
+  
+  i.fa.fa-trash-alt:hover {
+    color: #990000;
+  }
+
+ 
+  

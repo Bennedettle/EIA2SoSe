@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WG ToDo-Liste</title>
+    <link rel="stylesheet" href="L03.css">
+    <script src="L03.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <h1>WG ToDo-Liste</h1>
+    <p></p>
+
+
+<div id="div">
+    <h2>Neue Aufgabe eintragen</h2>
+    <fieldset>
+        <input type="text" name="task" placeholder="Aufgabe" value="">
+        <input type="text" name="comment" placeholder="Kommentar" value="">
+        <input type="text" name="person" placeholder="Bearbeiter" list="options" value="">
+        <datalist id="options">
+            <option value="Kevin"> </option>
+            <option value="Lydia"> </option>
+            <option value="Oliver"> </option>
+        </datalist>
+        <input type="datetime-local" name="deadline" value="2023-04-8T20:00">
+        <button id="add">Aufgabe hinzufügen</button>
+    </fieldset>
+</div>
+
+<div class="task">
+    <input id="finished" type="checkbox" name="done">
+    <input type="text" name="task" placeholder="Aufgabe" value="Kloputzen">
+    <input type="text" name="comment" placeholder="Kommentar" value="die große Bürste benutzen">
+    <input type="text" name="person" placeholder="Bearbeiter" value="Lydia">
+    <input type="datetime-local" name="deadline" value="2023-04-8T20:00">
+    <label> in Bearbeitung:</label>
+    <input type="checkbox" name="inprogress">
+    <button id="edit">Ändern</button>
+    <i class="fa fa-trash-alt" id="trashbin"></i>
+</div>
+
+<div class="task">
+    <input id="finished" type="checkbox" name="done">
+    <input type="text" name="task" placeholder="Aufgabe" value="spülen">
+    <input type="text" name="comment" placeholder="Kommentar" value="gelben Schwamm nehmen">
+    <input type="text" name="person" placeholder="Bearbeiter" value="Oliver">
+    <input type="datetime-local" name="deadline" value="2023-04-8T20:00">
+    <label> in Bearbeitung:</label>
+    <input type="checkbox" name="inprogress">
+    <button id="edit">Ändern</button>
+    <i class="fa fa-trash-alt" id="trashbin"></i>
+</div>
+</html>
+
+
+
+
