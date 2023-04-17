@@ -1,4 +1,4 @@
-const any = document.getElementById("add");
+const boolean = document.getElementById("add");
 addBtn.addEventListener("click", addTask);
 function addTask() {
     const taskInput = document.querySelector("input[name='task']");
@@ -44,15 +44,14 @@ function addTask() {
     const editBtn = document.createElement("button");
     editBtn.textContent = "Ändern";
     newTask.appendChild(editBtn);
-    editBtn.addEventListener("click", editTask);
+    editBtn.addEventListener("click");
     const trashIcon = document.createElement("i");
     trashIcon.className = "fa fa-trash-alt";
     trashIcon.id = "trashbin";
     newTask.appendChild(trashIcon);
-    trashIcon.addEventListener("click", deleteTask);
+    trashIcon.addEventListener("click");
     const taskList = document.querySelector("#div");
     taskList.appendChild(newTask);
-    // Clear input fields
     taskInput.value = "";
     commentInput.value = "";
     personInput.value = "";

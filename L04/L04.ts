@@ -1,4 +1,4 @@
-const any: addBtn = document.getElementById("add")!;
+const boolean: addBtn = document.getElementById("add")!;
 addBtn.addEventListener("click", addTask);
 
 function addTask() {
@@ -54,18 +54,17 @@ function addTask() {
   const editBtn = document.createElement("button");
   editBtn.textContent = "Ändern";
   newTask.appendChild(editBtn);
-  editBtn.addEventListener("click", editTask);
+  editBtn.addEventListener("click");
 
   const trashIcon = document.createElement("i");
   trashIcon.className = "fa fa-trash-alt";
   trashIcon.id = "trashbin";
   newTask.appendChild(trashIcon);
-  trashIcon.addEventListener("click", deleteTask);
+  trashIcon.addEventListener("click");
 
   const taskList = document.querySelector("#div")!;
   taskList.appendChild(newTask);
 
-  // Clear input fields
   taskInput.value = "";
   commentInput.value = "";
   personInput.value = "";
