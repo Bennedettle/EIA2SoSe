@@ -1,4 +1,4 @@
-namespace L05_Aufgabenliste_Client {
+namespace L05_Aufgaben {
   
     export interface Task {
       title: string;
@@ -29,6 +29,7 @@ namespace L05_Aufgabenliste_Client {
       );
       button.addEventListener("click", newTask);
     }
+    
   
     async function newTask(_event: MouseEvent): Promise<void> {
       let Title: HTMLInputElement = <HTMLInputElement>(
@@ -103,5 +104,8 @@ namespace L05_Aufgabenliste_Client {
   
           let date: HTMLDivElement = document.createElement("div");
           date.setAttribute("class", "date");
-          date.innerText = tasks[i].date + " " + tasks[i
-  
+          date.innerText = tasks[i].date + " " + tasks[i]
+          }
+       }
+  }
+}
